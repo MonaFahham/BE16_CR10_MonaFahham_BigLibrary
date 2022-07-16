@@ -1,0 +1,277 @@
+* {
+    max-width: 100%;
+}
+
+.body_style {
+    background-color: #ffefe1cc;
+}
+
+.library_name {
+    padding-top: 42rem;
+    font-size: 4rem;
+    color: #c3a388;
+    font-weight: 800;
+    text-shadow: 0.1rem 0.1rem 0.8rem black;
+}
+
+.hero {
+    background-image: url("../image/library.jpg");
+    width: 100% auto;
+    height: 50rem;
+    max-width: 100%;
+    z-index: 1;
+    background-repeat: no-repeat;
+    background-size: 100% 50rem;
+    background-position: center;
+}
+
+.library {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-block: 2rem;
+    color: #491007;
+}
+
+.add_product {
+    padding-bottom: 3rem;
+}
+
+.add_product_button {
+    background-color: #491007;
+    color: bisque;
+    width: 20rem;
+    height: 4rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.add_product_button:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #491007;
+    color: rgb(236, 176, 166);
+}
+
+.image-size {
+    width: 20rem;
+    height: 27rem;
+    /* border: solid 1px #491007; */
+    -webkit-box-shadow: 0.1rem 0.1rem 0.8rem white;
+    box-shadow: 0.1rem 0.1rem 0.8rem #491007;
+    padding: 0.2rem;
+    background-size: cover;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.image-size:hover {
+    width: 20rem;
+    height: 27rem;
+    /* border: solid 1px #491007; */
+    -webkit-box-shadow: 0.1rem 0.1rem 0.8rem white;
+    /* text-shadow: 0.1rem 0.1rem 0.8rem #1b0501; */
+    box-shadow: 0.1rem 0.1rem 0.8rem #b1b1b1;
+    padding: 0.2rem;
+    background-size: cover;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.details {
+    color: #491007be;
+    text-decoration: none;
+    text-shadow: 0.1rem 0.1rem 0.8rem #4910077e;
+}
+
+.details:hover {
+    color: #1b0501;
+    text-shadow: 0.1rem 0.1rem 0.8rem #1b0501;
+}
+
+.book-author {
+    font-size: 18px;
+}
+
+.create-title {
+    color: #491007be;
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.left-title {
+    color: #491007be;
+    font-size: 1rem;
+}
+
+.home_btn {
+    background-color: #491007;
+    color: bisque;
+    width: 10rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.home_btn:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #491007;
+    color: rgb(236, 176, 166);
+}
+
+.insert_btn {
+    background-color: #274907;
+    color: bisque;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.insert_btn:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #274907;
+    color: rgb(236, 176, 166);
+}
+
+.successful {
+    padding-bottom: 2rem;
+}
+
+.succesfull_title {
+    color: #491007be;
+    font-size: 1rem;
+}
+
+.boxx {
+    width: 300px;
+    height: 300px;
+}
+
+.button_edit {
+    background-color: #274907;
+    color: bisque;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.button_edit:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #274907;
+    color: rgb(236, 176, 166);
+}
+
+.button_delete {
+    background-color: #491007;
+    color: bisque;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.button_delete:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #491007;
+    color: rgb(236, 176, 166);
+}
+
+.update_request {
+    color: #491007be;
+    font-size: 2rem;
+}
+
+.image_update {
+    width: 15rem;
+    height: 22rem;
+}
+
+.delete_request {
+    color: #491007be;
+    font-size: 2rem;
+}
+
+.name_delete {
+    color: #491007;
+}
+
+.button_delete1 {
+    background-color: #491007;
+    color: bisque;
+    width: 15rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.button_delete1:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #491007;
+    color: rgb(236, 176, 166);
+}
+
+.button_edit1 {
+    background-color: #274907;
+    color: bisque;
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 4px 2px;
+}
+
+.button_edit1:hover {
+    box-shadow: 0.1rem 0.1rem 0.8rem #274907;
+    color: rgb(236, 176, 166);
+}
+
+.delete_question {
+    color: #212529;
+    font-size: 1.7rem;
+}
+
+.publisher {
+    color: #491007be;
+    text-decoration: none;
+    text-shadow: 0.1rem 0.1rem 0.8rem #4910077e;
+}
+
+.publisher:hover {
+    color: #1b0501;
+    text-shadow: 0.1rem 0.1rem 0.8rem #1b0501;
+}
