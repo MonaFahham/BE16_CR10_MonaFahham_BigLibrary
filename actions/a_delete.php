@@ -3,7 +3,7 @@ require_once 'db_connect.php';
 
 if ($_POST) {
     $id = $_POST['id'];
-    $image = $_POST['image'];
+    $image = $_POST['photo'];
     ($image=="pic.jpg")?: unlink("../image/$image");
 
     $sql = "DELETE FROM library WHERE library_id = {$id}";

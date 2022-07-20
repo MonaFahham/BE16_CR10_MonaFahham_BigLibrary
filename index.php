@@ -9,18 +9,23 @@ if(mysqli_num_rows($result)  > 0) {
     while($row = mysqli_fetch_array($result, MYSQLI_ASSOC)){ 
         $tbody_book .= "
       <div class='container col-lg-3 col-md-6 col-sm-12 justify-content-center'>
-        <div class='col-12 justify-content-center '>
+        <div class='col-12 justify-content-center mt-5'>
           <a href='details.php?library_id=".$row['library_id']."'>
             <img class='image-size' src='./image/" .$row['image']."'>
           </a> 
         </div>
-        <div class='text-center nsl2'>
+        <div class='text-center'>
           <a class='details' href='details.php?library_id=".$row['library_id']."'>
             <h4 class='book-title'>" .$row['title']."</h4>
             <h4 class='book-author'>" .$row['author_first_name']." " .$row['author_last_name']."</h4>
-          <a class='publisher' href='publisher.php?library_id=".$row['publisher_name']."'>".$row['publisher_name']."
+          <a class='publisher' href='publisher.php?publisher_name=".$row['publisher_name']."'>".$row['publisher_name']."
           </a>
         </div>
+        <div class='col-12'>
+                    <a href='update.php?id=".$row['library_id']."'><button class='button_edit' type='button'>Edit</button></a>
+                    <a href='delete.php?id=".$row['library_id']."'><button class='button_delete'       type='button'>Delete</button></a>
+
+                </div>
       </div>";
    };
 } else {
